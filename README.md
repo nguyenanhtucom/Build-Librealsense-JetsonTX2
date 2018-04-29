@@ -25,7 +25,7 @@ to
 
 deb [arch=arm64] 
 
-Example:
+For example, change
 
 deb http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted universe multiverse
 
