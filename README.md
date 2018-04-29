@@ -18,12 +18,17 @@ $ ./installLibrealsense.sh
 $ sudo vi  /etc/apt/sources.list
 
 Edit
+
 deb url 
+
 to 
+
 deb [arch=arm64] 
 
 Example:
 
 deb http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted universe multiverse
+
 to
+
 deb [arch=arm64]  http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted universe multiverse
