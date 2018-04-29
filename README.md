@@ -13,15 +13,17 @@ $ ./installLibrealsense.sh
 
 <h2>Fix Error</h2>
 
-Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/xenial/main/binary-amd64/Packages  404  Not Found [IP: 91.189.88.150 80]<h1>
+1. Error: Failed to fetch http://ports.ubuntu.com/ubuntu-ports/dists/xenial/main/binary-amd64/Packages  404  Not Found [IP: 91.189.88.150 80]<h1>
 
 $ sudo vi  /etc/apt/sources.list
+
 Edit
 deb url 
 to 
 deb [arch=arm64] 
 
-Example
+Example:
+
 deb http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted universe multiverse
 to
 deb [arch=arm64]  http://ports.ubuntu.com/ubuntu-ports/ xenial main restricted universe multiverse
