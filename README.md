@@ -23,7 +23,7 @@ deb url
 
 to 
 
-deb [arch=arm64] 
+deb [arch=arm64] url
 
 For example, change
 
