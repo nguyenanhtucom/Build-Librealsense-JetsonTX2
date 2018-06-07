@@ -4,7 +4,7 @@ Build librealsense 2.0 library on the NVIDIA Jetson TX2 Development kit.  Intel 
 This is for version L4T 28.2 (JetPack 3.2)
 librealsense v2.10.4
 
-$ ./buildPatchedKernelTX.sh
+$ ./buildPatchedKernel.sh
 
 <h2>Install librealsense 2.0</h2>
 To install the librealsense library:
